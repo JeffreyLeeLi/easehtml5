@@ -1,0 +1,42 @@
+<ion-view hide-nav-bar="true">
+
+  <ion-header-bar class="bar bar-header bar-assertive item-input-inset">
+    <!-- <div class="bar bar-header bar-assertive item-input-inset"> -->
+      <button class="button button-icon icon ion-ios-person-outline"></button>
+      <label class="item-input-wrapper">
+        <i class="icon ion-ios-search placeholder-icon"></i>
+        <input placeholder="Search" type="search">
+      </label>
+      <button class="button button-icon icon ion-plus"></button>
+    <!-- </div> -->
+  </ion-header-bar>
+
+  <ion-content>
+    <ion-slide-box auto-play="true" on-slide-changed="slideHasChanged($index)" style="width:100%;height:220px;">
+      <ion-slide>
+        <img src="img/image1.jpg"></img>
+      </ion-slide>
+      <ion-slide>
+        <img src="img/image2.jpg"></img>
+      </ion-slide>
+      <ion-slide>
+        <img src="img/image3.jpg"></img>
+      </ion-slide>
+    </ion-slide-box>
+
+    <div class="list">
+
+      <a class="item item-thumbnail-left" href="#" ng-repeat="job in jobs">
+        <img src="img/tasklogo.jpg">
+        <h2>{{job.name}}</h2>
+        <p ng-repeat="log in job.history">
+          {{log.name}}
+          {{log.work}}
+          {{log.time}}
+        </p>
+      </a>
+
+    </div>
+
+  </ion-content>
+</ion-view>

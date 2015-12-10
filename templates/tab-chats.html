@@ -1,0 +1,25 @@
+<ion-view hide-nav-bar="true">
+  <ion-header-bar class="bar bar-header bar-assertive item-input-inset">
+    <button class="button button-icon icon ion-ios-person-outline"></button>
+      <label class="item-input-wrapper">
+        <i class="icon ion-ios-search placeholder-icon"></i>
+        <input placeholder="Search" type="search">
+      </label>
+      <button class="button button-icon icon ion-plus"></button>
+  </ion-header-bar>
+
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">
+        <img ng-src="{{chat.face}}">
+        <h2>{{chat.name}}</h2>
+        <p>{{chat.lastText}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+        <ion-option-button class="button-assertive" ng-click="remove(chat)">
+          Delete
+        </ion-option-button>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
