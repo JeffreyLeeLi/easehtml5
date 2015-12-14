@@ -1,4 +1,9 @@
+## What's this
 This is an addon starter template for the [Ionic Framework](http://ionicframework.com/).
+I'm trying to make SideMenu and Tabs working together the best way, keeping the total separation between views. There's a fork example (and many others you can find on codepen) that injects the view into the <tab> code. It's [here](http://codepen.io/benallfree/pen/JLehx), but it's not the proof of this repo.
+
+There's an article about what I'm doing [here](http://codepen.io/mircobabini/developer/ionic-sidemenu-tabs) and the working pen [here](http://codepen.io/mircobabini/pen/gLkli).
+
 
 ## How to use this template
 
@@ -12,7 +17,7 @@ Take the name after `ionic-starter-`, and that is the name of the template to be
 
 ```bash
 $ sudo npm install -g ionic cordova
-$ ionic start myApp tabs
+$ ionic start myApp sidemenu
 ```
 
 Then, to run it, cd into `myApp` and run:
@@ -26,8 +31,7 @@ $ ionic emulate ios
 Substitute ios for android if not on a Mac, but if you can, the ios development toolchain is a lot easier to work with until you need to do anything custom to Android.
 
 ## Demo
-http://plnkr.co/edit/qYMCrt?p=preview
+[http://codepen.io/mircobabini/pen/gLkli](http://codepen.io/mircobabini/pen/gLkli)
 
-## Issues
-Issues have been disabled on this repo, if you do find an issue or have a question consider posting it on the [Ionic Forum](http://forum.ionicframework.com/).  Or else if there is truly an error, follow our guidelines for [submitting an issue](http://ionicframework.com/contribute/#issues) to the main Ionic repository. On the other hand, pull requests are welcome here!
-# easehtml5
+## Contrib & Issues
+Feel free to fork this repo, the pen or anything else. Feel also free to submit any issues or requests.
