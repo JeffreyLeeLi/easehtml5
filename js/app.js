@@ -69,6 +69,14 @@ angular.module('ionicApp', ['ionic', 'starter.controllers', 'starter.services'])
           }
         }
       })
+      .state('tabs.trade', {
+        url: "/trade/:tradeId",
+        views: {
+          'about-tab': {
+            templateUrl: "templates/trade-detail.html"
+          }
+        }
+      })
       .state('tabs.contact', {
         url: "/contact",
         views: {

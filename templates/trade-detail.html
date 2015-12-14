@@ -1,0 +1,68 @@
+<ion-view title="交易管理">
+<ion-content class="bg">
+    <div class="pdTop">
+        <ul>
+            <li ng-class="{ 'button\-positive': demo == 'all' }" ng-click="setPlatform('all')"><span>全部订单</span></li>
+            <li  ng-class="{ 'button\-positive': demo == 'no' }" ng-click="setPlatform('no')"><span>未接单</span></li>
+            <li ng-class="{ 'button\-positive': demo == 'Already' }" ng-click="setPlatform('Already')"><span>已接单</span></li>
+            <li ng-class="{ 'button\-positive': demo == 'ok' }" ng-click="setPlatform('ok')"><span>完成订单</span></li>
+        </ul>
+        <div class="clearfix"></div>
+    </div>
+
+    <div class="pdContent">
+        <div class="borderWhite mTop">
+            <span class="fl">订单号：101010101010101</span><span class="textRed fr">已接受</span>
+            <div class="clearfix"></div>
+        </div>
+        <div class="title">
+            <a href="#/cpPage">
+                <img src="img/tasklogo.jpg">
+                <h4>计算器模型设计及成品渲染图</h4>
+                <p>需要完成计算机的模型设计和成品渲染，具体要求如下...</p>
+            </a>
+            <div class="clearfix"></div>
+            <div class="padding"></div>
+            <div class="listName">
+                <div class="fl"><img src="img/l_1.png">李航</div>
+                <div class="fr">订单金额:<b>￥2000</b></div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="borderWhite">
+            <div class="fr">
+                <button class="butWhite">查看文件</button>
+                <button class="butRed">确认付款</button>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="pdContent">
+        <div class="borderWhite mTop">
+            <span class="fl">订单号：101010101010101</span><span class="fr">已有<span class="textRed ">15</span>人抢单</span>
+            <div class="clearfix"></div>
+        </div>
+        <div class="title">
+            <a href="/cpPage">
+                <img src="img/tasklogo.jpg">
+                <h4>计算器模型设计及成品渲染图</h4>
+                <p>需要完成计算机的模型设计和成品渲染，具体要求如下...</p>
+            </a>
+            <div class="clearfix"></div>
+            <div class="padding"></div>
+            <div class="listName">
+                <div class="fr">订单金额:<b>￥2000</b></div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+        <div class="borderWhite">
+            <div class="fr">
+                <button class="butWhite">查看人员</button>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+</ion-content>
+</ion-view>
