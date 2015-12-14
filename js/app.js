@@ -1,9 +1,9 @@
 angular.module('ionicApp', ['ionic', 'starter.controllers', 'starter.services'])
 
-.config(function($stateProvider, $urlRouterProvider) {
+.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
 
 
-    //$ionicConfigProvider.tabs.position("bottom");
+    $ionicConfigProvider.tabs.position("bottom");
 
     $stateProvider
       .state('search', {
