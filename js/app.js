@@ -79,6 +79,6 @@ angular.module('ionicApp', ['ionic', 'starter.controllers', 'starter.services'])
       });
 
 
-    $urlRouterProvider.otherwise("/tab/home");
+    $urlRouterProvider.otherwise("/tab/process");
 
   });
