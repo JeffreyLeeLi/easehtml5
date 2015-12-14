@@ -38,3 +38,224 @@ top: 10px;
 right: 35%;
 
 }
+
+
+/*zym 2015-12-10*/
+.mTop{
+    margin-top: 15px;
+}
+
+.fl{
+	float:left
+}
+.fr{
+	float:right
+}
+
+.blueH a{
+	color:#3a9cf9;
+	text-decoration:none
+}
+.blueH a:hover{
+	text-decoration:underline
+}
+.textRed{
+    color: #eb231d;
+}
+.textGray{
+    color: #939393;
+}
+.bg{
+    background:#f7f7f7
+}
+.butWhite{
+    background-color: #fafafa;
+    color: #313131;
+    border: 1px #c6c6c6 solid;
+}
+.butWhite,
+.butRed{
+    display: inline-block;
+    margin: 0 0 0 15px;
+    padding: 0px 10px;
+    min-width: 52px;
+    min-height: 36px;
+    cursor: pointer;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 36px;
+    cursor: pointer;
+}
+.butRed{
+    background-color: #eb231d;
+    color: #fff;
+    border: 1px #fff solid;
+
+}
+
+.pdTop{
+    border-bottom: 1px #c6c6c6 solid;
+}
+.borderWhite,
+.borderWhiteTop{
+    border-top: 1px #c6c6c6 solid;
+    border-bottom: 1px #c6c6c6 solid;
+}
+.borderWhite,
+.pdContent{
+    background: #fff;
+}
+.scroll .blueH .fl,
+.scroll .blueH .fr{
+	margin-top:5px
+}
+.return{
+	width: 26px;
+	text-align:center;
+	font-size: 30px;
+	color: #FFF;
+}
+
+.next{
+	line-height:33px;
+	font-size: 16px;
+	padding-right:10px
+
+}
+
+.login{
+	padding:20px;
+}
+.loginInp label{
+	border:1px #e8e7e7 solid;
+	margin-bottom:20px;
+	background:#fff
+}
+.buttonRed{
+	background:#eb231d;
+	color:#f9bdbc;
+	padding:10px;
+	border:1px;
+	border-radius:0 5px 5px 0
+}
+.button1{
+	position: absolute;
+	top: -1px;
+	right: -1px;
+}
+
+.pdTop li{
+    width: 25%;
+    float: left;
+    text-align: center;
+    background: #fff;
+    line-height: 40px;
+    cursor: pointer;
+}
+.pdTop li.button-positive span{
+    padding: 0 10px 7px 10px ;
+    color: #eb231d;
+    border-bottom: 3px #eb231d solid;
+}
+.pdContent{
+    color: #313131;
+}
+.pdContent .title{
+    padding:25px 20px 20px 20px;
+}
+
+.pdContent .title b,
+.pdContent .title a>h4,
+.pdContent .listName b,
+.pdContent .title a h4{
+    font-size: 16px;
+}
+.pdContent .title a h4{
+    padding-bottom: 6px;
+}
+.pdContent .title p{
+    margin:0px;
+}
+
+.pdContent .title a{
+    color: #939393;
+    text-decoration: none;
+}
+.pdContent .title a:hover{
+    text-decoration: underline;
+}
+.pdContent .title>a img,
+.pdContent .listName img{
+    display: block;
+    float: left;
+    border: 1px #aeaeae solid;
+    margin-right: 10px;
+}
+.borderWhite{
+     padding: 15px 20px;
+     color: #313131;
+ }
+.borderWhiteTop{
+    padding: 5px 20px;
+    color: #313131;
+}
+.pdContent .listName img{
+    border: 0;
+}
+
+.pdContent .borButt{
+    padding: 20px;
+    border-bottom: 1px #c6c6c6 solid;
+}
+.bortop{
+    border-top: 1px #c6c6c6 solid;
+}
+.bortop h4,
+.pdContent .title h4,
+.borderWhite >h4{
+    margin:0
+}
+.pdContent .title .ion-ios-arrow-right{
+    font-size: 40px;
+}
+
+.footerCp{
+    height: 50px;
+    padding-right: 20px;
+}
+.footerCp>div{
+    width: 100%;
+}
+
+/*任务状态*/
+
+.point,
+.pointRed{
+
+    padding-left: 40px;
+    line-height: 30px;
+    font-size: 16px;
+}
+.point {
+    color: #2ca560;
+    background:url("../img/l_3.png") no-repeat;
+}
+.pointRed{
+    background:url("../img/l_4.png") no-repeat;
+    color: #eb231d;
+}
+.point span,
+.pointRed span{
+    color: #313131;
+    padding-left: 10px;
+}
+.title .line{
+    margin-left: 13px;
+    padding-left: 26px;
+    padding-bottom: 20px;
+    border-left: 2px #2ca560 solid;
+}
+
+
+/*end*/
