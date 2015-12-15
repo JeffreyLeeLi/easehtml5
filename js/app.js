@@ -77,6 +77,14 @@ angular.module('ionicApp', ['ionic', 'starter.controllers', 'starter.services'])
           }
         }
       })
+      .state('tabs.order', {
+        url: "/order/:orderId",
+        views: {
+          'about-tab': {
+            templateUrl: "templates/order-detail.html"
+          }
+        }
+      })
       .state('tabs.contact', {
         url: "/contact",
         views: {
