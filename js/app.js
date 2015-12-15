@@ -72,15 +72,23 @@ angular.module('ionicApp', ['ionic', 'starter.controllers', 'starter.services'])
       .state('tabs.trade', {
         url: "/trade/:tradeId",
         views: {
-          'about-tab': {
+          'manager-tab': {
             templateUrl: "templates/trade-detail.html"
           }
         }
       })
-      .state('tabs.contact', {
-        url: "/contact",
+      .state('tabs.order', {
+        url: "/order/:orderId",
         views: {
-          'contact-tab': {
+          'manager-tab': {
+            templateUrl: "templates/order-detail.html"
+          }
+        }
+      })
+      .state('tabs.manager', {
+        url: "/manager",
+        views: {
+          'manager-tab': {
             templateUrl: "templates/contact.html"
           }
         }
